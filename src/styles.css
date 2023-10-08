@@ -1,0 +1,21 @@
+.Skills {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.Skills h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.Skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Skills li {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #555;
+}

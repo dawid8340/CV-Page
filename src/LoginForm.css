@@ -1,0 +1,16 @@
+/* LoginForm.css */
+
+.Logowanie{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 0;
+    position:static;
+    margin-top: 30px;
+    margin-left: 10px;
+    top: 30px;
+    left: 0;
+    right: 0;
+  }
+  #przycisk{
+    margin-left: 10px;
+  }

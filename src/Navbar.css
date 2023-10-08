@@ -1,0 +1,78 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #221b1b;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  
+  .navbar-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    float: left;
+  /*  justify-content: space-between;*/
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 15px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+
+  .navbar-icon-user {
+    position: absolute;
+    right: 10%;
+    font-size: 20px; /* Ustala rozmiar ikon */
+    margin-left: 10px; /* Dodaje odstęp między ikonami i innymi linkami */
+    cursor: pointer; /* Zmienia kursor na wskaźnik przy najechaniu na ikony */
+  }
+  .navbar-icon-settings {
+    position: absolute;
+    right: 5% ;
+    font-size: 20px; /* Ustala rozmiar ikon */
+    margin-left: 10px; /* Dodaje odstęp między ikonami i innymi linkami */
+    cursor: pointer; /* Zmienia kursor na wskaźnik przy najechaniu na ikony */
+  }
+
+  .settings-panel, .user-panel {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 101; /* Nad panelami głównymi, ale pod ikonami */
+  }
+  
+  .settings-panel {
+    right: 5%;
+    top: 31px;
+  }
+  
+  .user-panel {
+    right: 10%;
+    top: 31px;
+  }
+  
+  /* Styl dla paneli, gdy są widoczne */
+  .settings-panel.visible, .user-panel.visible {
+    display: block;
+    width: 150px;
+  }
+  li::marker {
+    display: none;
+  }
+  footer{
+    position: fixed;
+    top:95%;
+  }
